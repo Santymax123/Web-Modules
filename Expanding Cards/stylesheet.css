@@ -1,0 +1,17 @@
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px; /* use this for a more rounded effect :):)*/
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: .75s ease-in;
+}
+
+.panel.active {
+    flex: 5;
+  }
